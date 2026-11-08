@@ -14,3 +14,5 @@ def find_by_name(products, text):
 
 def apply_discount():
     return 0
+def add_tax(price,rate=0.2):
+    return price * (1+rate)
